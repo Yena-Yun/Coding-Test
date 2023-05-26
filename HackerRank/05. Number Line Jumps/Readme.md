@@ -1,6 +1,8 @@
-### 문제 링크
+### 문제 요약
 
-https://www.hackerrank.com/challenges/kangaroo/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+- 구해야 하는 것: 속도와 출발점이 각각 다른 두 캥거루가 뛰어서
+  같은 회차에 만날 수 있는지 여부
+- 반환 값: 'YES' 또는 'NO' 문자열
 
 ### 풀이 과정
 

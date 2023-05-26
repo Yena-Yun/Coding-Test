@@ -1,23 +1,9 @@
-### [문제 링크](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+### 문제 요약
 
-Its base and height are both equal to . It is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+- 주어진 숫자만큼 '#'을 계단 모양으로 쌓아올리기
+- 조건: 주어진 숫자만큼의 층을 가질 것, 맨 아래 줄의 '#' 갯수가 주어진 숫자와 동일할 것
 
-Write a program that prints a staircase of size .
-
-Function Description
-
-Complete the staircase function in the editor below.
-
-staircase has the following parameter(s):
-
-int n: an integer
-Print
-
-Print a staircase as described above.
-
-Input Format
-
-A single integer, , denoting the size of the staircase.
+* 각 줄의 '#'은 오른쪽 정렬
 
 ### 풀이 과정
 

@@ -1,34 +1,7 @@
-### [문제 링크](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+### 문제 요약
 
-Given a time in -hour AM/PM format, convert it to military (24-hour) time.
-
-Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
-
-- 12:00:00PM on a 12-hour clock is 12:00:00 on a 24-hour clock.
-
-Example
-
-Return '12:01:00'.
-
-Return '00:01:00'.
-
-Function Description
-
-Complete the timeConversion function in the editor below. It should return a new string representing the input time in 24 hour format.
-
-timeConversion has the following parameter(s):
-
-string s: a time in hour format
-Returns
-
-string: the time in hour format
-Input Format
-
-A single string that represents a time in -hour clock format (i.e.: or ).
-
-Constraints
-
-All input times are valid
+- 시:분:초 형태로 주어진 시간을 뒤에 AM/PM 떼고 24시간 형태로 바꾸어 반환
+  (예: 12:01:00AM => 00:01:00)
 
 ### 풀이 과정
 
