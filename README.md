@@ -1,11 +1,10 @@
 # Coding-Test
-프로그래머스 코테 문제 풀이
+프로그래머스 + 해커랭크 코테 문제풀이
 
-### [문제 링크 (프로그래머스)](https://school.programmers.co.kr/learn/challenges?order=recent&statuses=unsolved&levels=1&languages=javascript)
+## 언어
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-#### 언어: Javascript
-
-#### 폴더별 구성
+## 폴더별 구성
 
 * Readme.md: 문제 내용, 풀이 과정 ✏
 * index.js: 첫 풀이 👱‍♀️
