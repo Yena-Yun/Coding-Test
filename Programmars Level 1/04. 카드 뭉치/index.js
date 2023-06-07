@@ -1,7 +1,7 @@
 function solution(cards1, cards2, goal) {
-  for (const x of goal) {
-    if (x === cards1[0]) cards1.shift();
-    else if (x === cards2[0]) cards2.shift();
+  for (let word of goal) {
+    if (cards1[0] === word) cards1.shift();
+    else if (cards2[0] === word) cards2.shift();
     else return  'No'
   }
 
@@ -12,4 +12,4 @@ const cards1 = ['i', 'drink', 'water'];
 const cards2 = ['want', 'to'];
 const goal = ['i', 'want', 'to', 'drink', 'water'];
 
-console.log(solution(cards1, cards2, goal));
+console.log(solution(cards1, cards2, goal)); // expected: 'Yes'
