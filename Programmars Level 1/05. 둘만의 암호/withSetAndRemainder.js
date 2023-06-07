@@ -1,16 +1,16 @@
 
 function solution(s, skip, index) {
   let answer = '';
-  let alphabet = new Set('abcdefghijklmnopqrstuvwxyz');
+  let alphabetSet = new Set('abcdefghijklmnopqrstuvwxyz');
 
-  [...skip].forEach((s) => alphabet.delete(s));
+  [...skip].forEach((s) => alphabetSet.delete(s));
 
-  let newAlphabet = [...alphabet];
+  let alphabetArr = [...alphabetSet];
 
   for (let x of s) {
-    let resultIndex = newAlphabet.indexOf(x) + index;
+    let resultIndex = alphabetArr.indexOf(x) + index;
 
-    answer += newAlphabet[resultIndex % newAlphabet.length];
+    answer += alphabetArr[resultIndex % alphabetArr.length];
   }
 
   return answer;
