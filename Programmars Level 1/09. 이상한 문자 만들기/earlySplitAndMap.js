@@ -1,18 +1,16 @@
 function solution(s) {
-  let arr = s.split(' ');
-  let word = '';
+  let splitStr = s.split(' ');
 
-  let answer = arr.map((a) => {
-    word = a.split('');
-
-    return word.map((w, j) => {
-      if (j % 2) {
-        return w.toLowerCase()
+  let answer = splitStr.map((char) => {
+    return [...char].map((w, index) => {
+      if (index % 2) {
+        return w.toLowerCase();
       } else {
         return w.toUpperCase();
       }
     }).join('');
-  }).join(' ')
+  }).join(' ');
+
 
   return answer;
 }
