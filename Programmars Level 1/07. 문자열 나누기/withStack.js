@@ -2,13 +2,13 @@ function solution(s) {
   let answer = 0;
   let stack = [];
 
-  [...s].forEach((str) => {
-    stack.push(str);
+  [...s].forEach((char) => {
+    stack.push(char);
 
     const same = stack.filter((item) => item === stack[0]);
-    const different = stack.filter((item) => item !== stack[0]);
+    const diff = stack.filter((item) => item !== stack[0]);
 
-    if (same.length === different.length) {
+    if (same.length === diff.length) {
       answer++;
       stack = [];
     }
