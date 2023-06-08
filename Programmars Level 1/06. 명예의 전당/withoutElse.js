@@ -1,5 +1,5 @@
 function solution(k, scores) {
-  let answer = []; // 매일 최소 점수 배열 (길이 = score 길이)
+  let answer = []; // 각 차수의 최소 점수
   let honors = []; // 명예의 전당
 
   for (let i = 0; i < scores.length; i++) {

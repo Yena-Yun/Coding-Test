@@ -25,4 +25,4 @@ function solution(k, scores) {
 const k = 4;
 
 const score = [0, 300, 40, 300, 20, 70, 150, 50, 500, 1000];
-console.log(solution(k, score)); // expected: [10, 10, 10, 20, 20, 100, 100]
+console.log(solution(k, score)); // expected: [0, 0, 0, 0, 20, 40, 70, 70, 150, 300]
