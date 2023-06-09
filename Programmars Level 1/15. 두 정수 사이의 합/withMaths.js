@@ -1,14 +1,17 @@
 function solution(a, b) {
   let answer = 0;
-
-    for (let i = Math.min(a, b); i <= Math.max(a,b); i++) {
-      answer += i;
-    }
-
+    
+  let min = Math.min(a, b);
+  let max = Math.max(a, b);
+    
+  for (let i = min; i <= max; i++) {
+    answer += i;
+  }
+    
   return answer;
 }
 
 const a = 5;
 const b = 3;
 
-console.log(solution(a, b));
+console.log(solution(a, b)); // expected: 12
