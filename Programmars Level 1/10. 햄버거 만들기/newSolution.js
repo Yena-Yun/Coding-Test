@@ -2,8 +2,8 @@ function solution(ingredient) {
   let answer = 0;
   let stack = [];
 
-  for (let ing of ingredient) {
-    stack.push(ing);
+  for (let x of ingredient) {
+    stack.push(x);
 
     if (stack.slice(-4).join('') === '1231') {
       stack.splice(-4)
